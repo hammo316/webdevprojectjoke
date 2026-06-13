@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-labelledby="title desc">
+    <title id="title">Riddler placeholder graphic</title>
+    <desc id="desc">A simple green question mark villain placeholder.</desc>
+    <rect width="400" height="320" fill="#09150f"/>
+    <rect x="0" y="242" width="400" height="78" fill="#0e2418"/>
+    <circle cx="200" cy="146" r="92" fill="#132d1f" stroke="#49d17d" stroke-width="6"/>
+    <text x="200" y="180" fill="#49d17d" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" text-anchor="middle">?</text>
+    <path d="M94 267 C118 216 154 196 200 196 C246 196 282 216 306 267 Z" fill="#173824"/>
+    <text x="200" y="294" fill="#f5f7fa" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">RIDDLER</text>
+</svg>

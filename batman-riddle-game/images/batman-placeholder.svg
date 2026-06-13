@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-labelledby="title desc">
+    <title id="title">Batman placeholder graphic</title>
+    <desc id="desc">A simple dark hero placeholder with yellow bat ears and cape shapes.</desc>
+    <rect width="400" height="320" fill="#090f1b"/>
+    <rect x="0" y="242" width="400" height="78" fill="#111827"/>
+    <path d="M42 266 L82 215 L120 266 Z M280 266 L320 215 L358 266 Z" fill="#202b3e"/>
+    <path d="M116 268 C138 202 158 170 200 170 C242 170 262 202 284 268 Z" fill="#151d2b"/>
+    <path d="M148 154 L162 91 L185 137 L200 128 L215 137 L238 91 L252 154 C242 181 222 196 200 196 C178 196 158 181 148 154 Z" fill="#0b0f17"/>
+    <path d="M166 154 C180 162 220 162 234 154 C228 179 214 190 200 190 C186 190 172 179 166 154 Z" fill="#f3c623"/>
+    <circle cx="162" cy="146" r="6" fill="#f3c623"/>
+    <circle cx="238" cy="146" r="6" fill="#f3c623"/>
+    <text x="200" y="294" fill="#f5f7fa" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" text-anchor="middle">BATMAN</text>
+</svg>

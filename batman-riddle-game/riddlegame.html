@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Gotham Riddle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game-shell">
+        <section class="hero-panel">
+            <div class="character-card batman-card">
+                <!-- Replace this placeholder with your own image file.
+                     If you use a different filename, change the src below. -->
+                <img src="images/batman.png" alt="Batman placeholder graphic">
+                <span>Batman</span>
+            </div>
+
+            <div class="title-area">
+                <p class="eyebrow">Gotham Emergency Broadcast</p>
+                <h1>Save Gotham</h1>
+                <p id="instructions">Help Batman answer three riddles to save Gotham.</p>
+            </div>
+
+            <div class="character-card riddler-card">
+                <!-- Replace this placeholder with your own image file.
+                     If you use a different filename, change the src below. -->
+                <img src="images/riddler.png" alt="Riddler placeholder graphic">
+                <span>The Riddler</span>
+            </div>
+        </section>
+
+        <section class="status-bar" aria-label="Game status">
+            <p>Time: <strong id="timer">2:00</strong></p>
+            <p>Riddles solved: <strong id="score">0 / 3</strong></p>
+        </section>
+
+        <section id="start-screen" class="screen active">
+            <h2>Can you beat the Riddler?</h2>
+            <p>Click the button to start</p>
+            <button id="start-button" class="primary-button">Start Game</button>
+        </section>
+
+        <section id="game-screen" class="screen">
+            <p class="riddle-label">Current riddle</p>
+            <h2 id="riddle-text">The riddle will appear here.</h2>
+
+            <form id="answer-form">
+                <label for="answer-input">Your answer</label>
+                <div class="answer-row">
+                    <input id="answer-input" type="text" autocomplete="off" placeholder="Type your answer">
+                    <button type="submit" class="primary-button">Submit</button>
+                </div>
+            </form>
+
+            <button id="ask-batman-button" class="secondary-button" type="button">Ask Batman</button>
+            <p id="feedback-message" class="feedback" aria-live="polite"></p>
+        </section>
+
+        <section id="batman-help-screen" class="screen">
+            <h2>Would you like to ask Batman for help?</h2>
+            <p id="batman-answer">He might know the answer. Maybe.</p>
+            <div class="button-row">
+                <button id="batman-yes-button" class="primary-button" type="button">Yes</button>
+                <button id="batman-no-button" class="secondary-button" type="button">No</button>
+            </div>
+        </section>
+
+        <section id="end-screen" class="screen">
+            <h2 id="end-title">Game Over</h2>
+            <p id="end-message"></p>
+            <button id="retry-button" class="primary-button" type="button">Retry</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
