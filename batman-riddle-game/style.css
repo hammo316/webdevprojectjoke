@@ -211,6 +211,24 @@ input {
     line-height: 1.5;
 }
 
+.credit-area {
+    margin-top: 18px;
+    padding: 14px 18px;
+    text-align: center;
+    border: 1px solid #38445b;
+    background: rgba(9, 15, 27, 0.72);
+}
+
+.credit-area a {
+    color: #f3c623;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.credit-area a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 760px) {
     .game-shell {
         width: min(100% - 20px, 980px);
